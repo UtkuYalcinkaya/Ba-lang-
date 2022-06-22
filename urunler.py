@@ -12,3 +12,6 @@ while(i<adet):
     })
 
     i+=1
+
+for urun in urunler:
+    print(f' Ürün adı: {urun["name"]} Ürün Fiyatı {urun["price"]}')
